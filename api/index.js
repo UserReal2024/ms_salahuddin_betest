@@ -1,7 +1,7 @@
 const express = require('express');
-const connectDB = require('./config/mongo');
-const authControllers = require('./controllers/auth');
-const userControllers = require('./controllers/user');
+const connectDB = require('../config/mongo');
+const authControllers = require('../controllers/auth');
+const userControllers = require('../controllers/user');
 
 const app = express();
 
